@@ -1,0 +1,190 @@
+authors:
+- name: Floriane
+  roles:
+  - transcriber
+  - project-manager
+  - quality-control
+  surname: Goy
+characters:
+  members:
+  - i
+  - e
+  - t
+  - u
+  - a
+  - n
+  - o
+  - r
+  - m
+  - ſ
+  - c
+  - d
+  - l
+  - s
+  - p
+  - ','
+  - .
+  - q
+  - b
+  - v
+  - ¬
+  - h
+  - g
+  - æ
+  - '&'
+  - f
+  - ̀
+  - ̃
+  - D
+  - E
+  - P
+  - x
+  - I
+  - A
+  - C
+  - S
+  - V
+  - ':'
+  - T
+  - ́
+  - M
+  - '1'
+  - N
+  - '2'
+  - j
+  - Q
+  - α
+  - H
+  - ι
+  - R
+  - L
+  - '3'
+  - O
+  - ο
+  - y
+  - ν
+  - '5'
+  - '4'
+  - τ
+  - ε
+  - ·
+  - ̨
+  - ;
+  - G
+  - ς
+  - ̂
+  - ̓
+  - '8'
+  - œ
+  - '6'
+  - ρ
+  - σ
+  - '9'
+  - '7'
+  - υ
+  - κ
+  - )
+  - B
+  - (
+  - F
+  - η
+  - ω
+  - μ
+  - π
+  - λ
+  - δ
+  - γ
+  - z
+  - ͂
+  - '?'
+  - ß
+  - '0'
+  - θ
+  - ̔
+  - '{'
+  - χ
+  - β
+  - ξ
+  - Α
+  - φ
+  - ¶
+  - Æ
+  - Z
+  - ͅ
+  - X
+  - ꝙ
+  - '|'
+  - ̧
+  - ʹ
+  - ’
+  - Μ
+  - Ε
+  - "'"
+  - J
+  - Κ
+  - Π
+  - ̈
+  - U
+  - ζ
+  - ↄ
+  - '-'
+  - Y
+  - ל
+  - '!'
+  - ❧
+  - ψ
+  - ᗞ
+  - ꝑ
+  - ח
+  - ר
+  - 
+  - Τ
+  - ϲ
+  - ᚠ
+  -  
+  - ꝗ
+  - đ
+  - ꝓ
+  - Β
+  - Χ
+  - ᾽
+  - ꝰ
+  - ת
+  - פ
+  - ה
+  - Ν
+  - £
+  - Σ
+  mode: NFD
+description: Data for data for Paul’s exegesis.
+format: Alto-XML
+hands:
+  count: '1'
+  precision: exact
+language:
+- eng
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: L'exegese Paulinnienne
+project-website: https://www.unige.ch/ihr/fr/accueil/exegese-paulinienne/
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-typed
+time:
+  notAfter: '1400'
+  notBefore: '1600'
+title: Lambertus
+transcription-guidelines: Our data follow SegmOnto segmentation standards (https://segmonto.github.io).
+url: https://github.com/FourbeFlo/Lambertus
+volume:
+- count: 200874
+  metric: characters
+- count: 178
+  metric: files
+- count: 5836
+  metric: lines
+- count: 677
+  metric: regions

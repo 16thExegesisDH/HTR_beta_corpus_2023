@@ -26,12 +26,12 @@ characters:
   - .
   - q
   - b
-  - v
   - ¬
+  - v
   - h
-  - g
-  - æ
   - '&'
+  - æ
+  - g
   - f
   - ̀
   - ̃
@@ -43,108 +43,96 @@ characters:
   - A
   - C
   - S
-  - V
-  - ':'
   - T
+  - ':'
+  - V
   - ́
   - M
   - '1'
   - N
-  - '2'
   - j
-  - Q
+  - '2'
   - α
-  - H
+  - Q
   - ι
-  - R
   - L
-  - '3'
-  - O
+  - H
+  - R
   - ο
-  - y
+  - O
+  - '3'
   - ν
-  - '5'
+  - y
   - '4'
   - τ
+  - '5'
   - ε
   - ·
   - ̨
-  - ;
-  - G
   - ς
   - ̂
   - ̓
-  - '8'
+  - ;
   - œ
-  - '6'
+  - G
   - ρ
   - σ
-  - '9'
-  - '7'
-  - υ
+  - '6'
   - κ
-  - )
-  - B
-  - (
+  - '8'
+  - '9'
+  - υ
+  - '7'
   - F
   - η
+  - (
+  - )
+  - B
   - ω
   - μ
   - π
   - λ
   - δ
   - γ
-  - z
   - ͂
+  - z
   - '?'
-  - ß
   - '0'
   - θ
-  - ̔
+  - ß
   - '{'
+  - ̔
   - χ
-  - β
   - ξ
+  - β
   - Α
-  - φ
   - ¶
   - Æ
-  - Z
+  - φ
   - ͅ
+  - Z
   - X
-  - ꝙ
   - '|'
   - ̧
   - ʹ
   - ’
   - Μ
-  - Ε
   - "'"
-  - J
   - Κ
   - Π
-  - ̈
+  - Ε
   - U
   - ζ
   - ↄ
+  - ̈
   - '-'
   - Y
   - ל
-  - '!'
-  - ❧
   - ψ
   - ᗞ
   - ꝑ
   - ח
   - ר
-  - 
-  - Τ
-  - ϲ
-  - ᚠ
-  -  
-  - ꝗ
-  - đ
-  - ꝓ
   - Β
   - Χ
   - ᾽
@@ -154,7 +142,14 @@ characters:
   - ה
   - Ν
   - £
-  - Σ
+  - Τ
+  - ϲ
+  - ᚠ
+  - '!'
+  -  
+  - ꝗ
+  - đ
+  - ꝓ
   mode: NFD
 description: Data for data for Paul’s exegesis.
 format: Alto-XML
@@ -180,11 +175,11 @@ title: Lambertus
 transcription-guidelines: Our data follow SegmOnto segmentation standards (https://segmonto.github.io).
 url: https://github.com/FourbeFlo/Lambertus
 volume:
-- count: 200874
+- count: 182218
   metric: characters
-- count: 178
+- count: 164
   metric: files
-- count: 5836
+- count: 5340
   metric: lines
-- count: 677
+- count: 620
   metric: regions

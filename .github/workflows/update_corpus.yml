@@ -35,6 +35,15 @@ jobs:
       - name: Verify File Exists
         run: |
           test -f corpus/updated_files_control.csv || (echo "File not found!" && exit 1)
+
+      - name: Debug Repository Structure
+        run: |
+          echo "Current Directory:"
+          pwd
+          echo "Listing all files recursively:"
+          ls -R
+          echo "Checking contents of the corpus directory:"
+          ls corpus/ || echo "corpus/ directory does not exist!"
           
       - name: Run the Python Script with Debugging
         run: |

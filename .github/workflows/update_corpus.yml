@@ -3,7 +3,7 @@ name: Update Plot V2
 on:
   push:
     paths:
-      - corpus/updated_files_control.csv  # Ensure the correct relative path is used
+      - corpus/updated_files_control.csv # Ensure the correct relative path is used
 
 jobs:
   update_plot:

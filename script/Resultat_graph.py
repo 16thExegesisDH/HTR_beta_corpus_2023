@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 
 # Path to the CSV file
-file_path = "../corpus/updated_files_control.csv"
+file_path = "corpus/updated_files_control.csv"
 
 # Load the CSV file
 data = pd.read_csv(file_path)
@@ -61,4 +61,4 @@ fig.update_layout(
 )
 
 # Save the plot as an HTML file
-fig.write_html("../corpus/advancement_chart.html")
+fig.write_html("corpus/advancement_chart.html")

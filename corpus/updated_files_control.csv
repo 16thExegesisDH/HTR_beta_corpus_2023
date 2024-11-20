@@ -1,5 +1,5 @@
 Repository,Filename,Presegmented,SGM Manually Corrected,SGM GitHub Corrected,Transcript,Transcript Manually Corrected,DropCapitalZone,GraphicZone,Other
-Bucer_Eph_001,bsb00035303_00001.xml,Y,N,Y,Y,Y, -, -, -
+Bucer_Eph_001,bsb00035303_00001.xml,Y,N,Y,N,N, -, -, -
 Bucer_Eph_001,bsb00035303_00002.xml,Y,N,N,N,N, -, -, -
 Bucer_Eph_001,bsb00035303_00003.xml,Y,N,N,N,N, -, -, -
 Bucer_Eph_001,bsb00035303_00004.xml,Y,N,N,N,N, -, -, -

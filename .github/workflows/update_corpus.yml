@@ -25,6 +25,17 @@ jobs:
         run: |
           ls -l corpus/
           cat corpus/updated_files_control.csv
+          
+      - name: Debug File Path
+        run: |
+          ls -R
+          ls corpus/
+          cat corpus/updated_files_control.csv
+          
+      - name: Verify File Exists
+        run: |
+          test -f corpus/updated_files_control.csv || (echo "File not found!" && exit 1)
+          
       - name: Run the Python Script with Debugging
         run: |
           python script/Resultat_graph.py || echo "Script execution failed!" && exit 1

@@ -1,0 +1,39 @@
+name: Update Plot V2
+
+on:
+  push:
+    paths:
+      - corpus/updated_files_control.csv  # Ensure the correct relative path is used
+
+jobs:
+  update_plot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install pandas plotly
+
+      - name: Debug CSV File
+        run: |
+          ls -l corpus/
+          cat corpus/updated_files_control.csv
+
+      - name: Run the Python Script
+        run: |
+          python script/Resultat_graph.py  # Adjusted to correct relative path
+
+      - name: Commit the changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add -A
+          git commit -m "Update plot again"
+          git push
